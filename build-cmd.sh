@@ -16,7 +16,7 @@ curl -LO $WIN64_URL
 mkdir -p win32
 tar xf $WIN32_FILE -C win32/
 mkdir -p win64
-tar xf $WIN32_FILE -C win64/
+tar xf $WIN64_FILE -C win64/
 cd ..
 
 mkdir -p win32
